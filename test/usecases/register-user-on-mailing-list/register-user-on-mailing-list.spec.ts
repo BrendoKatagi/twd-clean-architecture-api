@@ -1,7 +1,7 @@
 import { UserData } from '@/entities'
 import { UserRepository } from '@/usecases/register-user-on-mainling-list/ports'
 import { RegisterUserOnMainlingList } from '@/usecases/register-user-on-mainling-list'
-import { InMemoryUserRepository } from '@test/usecases/register-user-on-mailing-list/repository'
+import { InMemoryUserRepository } from '@/usecases/register-user-on-mainling-list/repository'
 
 describe('Register user on mainling list use case', () => {
   test('should add  user with complete data to mailing list', async () => {
